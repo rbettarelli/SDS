@@ -13,11 +13,11 @@ public class Score {
 	
 	private Double value;
 	
-	private Score () {
+	public Score () {
 		
 	}
 	
-	public void serMovie (Movie movie) {
+	public void setMovie (Movie movie) {
 		id.setMovie(movie);
 	}
 	
